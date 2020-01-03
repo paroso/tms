@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	<mapping path="/*" decorator="/WEB-INF/view/decorator/default.jsp"/>
+	<mapping path="/tms/*" decorator="/WEB-INF/view/decorator/tms_default.jsp"/>
+	<mapping path="/assets/*" excludes="true"/>
+</sitemesh>
